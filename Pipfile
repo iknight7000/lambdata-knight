@@ -7,8 +7,10 @@ name = "pypi"
 numpy = "*"
 pandas = "*"
 ratings = "*"
+faker = "*"
 
 [dev-packages]
+twine = "*"
 
 [requires]
 python_version = "3.9"

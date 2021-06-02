@@ -17,4 +17,4 @@ class Null_Count:
     def clean_data(df):
         return df.isnull().sum().sum()
 
-Null_Count.clean_data(df)
+print(Null_Count.clean_data(df))
